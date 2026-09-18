@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background: #eee;
+    margin: 0 0 20px 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+nav a:hover {
+    background: #ddd;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
