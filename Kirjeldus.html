@@ -1,10 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Töö kirjeldus ja võrdlus</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<nav>
+    <ul>
+        <li><a href="index.html">Avaleht</a></li>
+        <li><a href="LeafletJS.html">LeafletJS kaart</a></li>
+        <li><a href="OpenLayers.html">OpenLayers kaart</a></li>
+        <li><a href="Kirjeldus.html">Töö Kirjeldus</a></li>
+    </ul>
+</nav>
+
+<h1>Töö kirjeldus ja kaarditeekide võrdlus</h1>
+<p>Selles projektis kasutati KML-faili, mis kirjeldab teekonda kodust kooli, ning kahte JavaScripti kaarditeeki: LeafletJS ja OpenLayers.</p>
+
+<h2>LeafletJS</h2>
+<ul>
+    <li><strong>Plussid:</strong> Väga lihtne ja kerge raamistik, kiire seadistada, suurepärane dokumentatsioon ja palju lihtsaid lisamooduleid (nt leaflet-omnivore KML-i lugemiseks).</li>
+    <li><strong>Miinused:</strong> Suuremate ja keerukamate GIS-andmete ning kihtide haldamiseks on vaja kasutada lisapuginaid.</li>
+</ul>
+
+<h2>OpenLayers</h2>
+<ul>
+    <li><strong>Plussid:</strong> Väga võimas ja professionaalne tööriist, toetab paljusid formaate (sh KML) otse ilma kolmandate osapoolte pluginateta, sobib keerukateks GIS-rakendusteks.</li>
+    <li><strong>Miinused:</strong> Keerulisem konfigureerida, mahukam kood ja järsem õppimiskõver võrreldes Leafletiga.</li>
+</ul>
 
 </body>
 </html>

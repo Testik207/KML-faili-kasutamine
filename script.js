@@ -24,7 +24,7 @@ var popup = L.popup();
 function onMapClick(e) {
     popup
         .setLatLng(e.latlng)
-        .setContent("Klõpsasite kaardil asukohas: " + e.latlng.toString())
+        .setContent("You clicked the map at " + e.latlng.toString())
         .openOn(map);
 }
 
